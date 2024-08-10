@@ -1,0 +1,60 @@
+.s-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    h4 {
+        color: red;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22.64px;
+        letter-spacing: 0.145em;
+
+    }
+
+    h1 {
+
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 71.15px;
+
+    }
+
+    p {
+        margin: 40px 0;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    h5 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27px;
+
+    }
+}
+
+.s-left img{
+    width: 100%;
+}
+
+@media (max-width:910px) {
+    .s-main {
+        flex-direction: column;
+
+        h4,
+        h1 {
+            text-align: center;
+        }
+    }
+    .s-right{
+        text-align: center;
+        br{
+            display: none;
+        }
+    }
+}

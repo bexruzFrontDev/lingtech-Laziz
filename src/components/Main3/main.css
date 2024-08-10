@@ -1,0 +1,55 @@
+.qq-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid grey;
+    height: 300px;
+    padding: 30px;
+
+    h4,
+    h1 {
+        color: white;
+    }
+
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+}
+
+.qq-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid grey;
+    height: 300px;
+    padding: 30px;
+
+    h4,
+    h1 {
+        color: white;
+    }
+
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+
+}
+
+.qq-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+@media (max-width:905px) {
+    .qq-main {
+        flex-direction: column;
+
+    }
+}
+
+
+@media (max-width:602px) {
+    .qq-right,.qq-left {
+        flex-direction: column;
+        height: max-content;
+    }
+}

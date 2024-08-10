@@ -1,0 +1,65 @@
+.h-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+@media (max-width:860px) {
+    .h-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        flex-direction: column-reverse;
+
+    }
+
+    .h-left {
+        text-align: center;
+        br{
+            display: none;
+        }
+        h1{
+            font-size: 25px;
+        }
+        span{
+            font-size: 25px;
+        }
+    }
+
+}
+
+
+.h4 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.145em;
+    color: #C72535;
+}
+
+.h1 {
+    font-size: 61px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 61px;
+    font-weight: 600;
+    color: dodgerblue;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.btn-shop {
+    width: 151px;
+    height: 58px;
+    color: white;
+    background-color: #247CC0;
+    border: none;
+    border-radius: 5px;
+}

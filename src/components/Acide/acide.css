@@ -1,0 +1,126 @@
+.h11 {
+    padding: 40px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 71.15px;
+    text-align: center;
+
+}
+
+.h44 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.64px;
+    letter-spacing: 0.145em;
+    text-align: center;
+    color: red;
+}
+
+a {
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.64px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.span {
+    color: red;
+    font-size: 20px;
+
+}
+
+
+.alar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid grey;
+    padding: 20px 0;
+    .img123 {
+        width: 100%;
+        object-fit: contain;
+        height: 273px;
+    }
+}
+
+/* 
+@media (max-width: 913px){
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+  
+.card {
+    margin: 70px;
+    width: 250px;
+    height: 230px;
+    border: 3px solid grey;
+
+    .img123 {
+        width: 100%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+} */
+
+@media (max-width: 1013px) {
+   .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+   } 
+   
+}
+
+
+@media (max-width: 831px) {
+    .cards{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     align-items: center;
+    } 
+    
+}
+
+
+
+
+
+.h{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.yulduz{
+    width: 84px;
+}
+
+.to{
+    width: 38px;
+    height: 20px;
+}
+
